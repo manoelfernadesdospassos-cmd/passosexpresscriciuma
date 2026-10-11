@@ -1,0 +1,57 @@
+{
+  "name": "Passos Express Criciúma",
+  "short_name": "Passos Express Criciúma",
+  "id": "com.passosexpress.criciuma",
+  "description": "Serviço de entregas rápidas e frete de carro em Criciúma e região.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "dir": "ltr",
+  "lang": "pt",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/512x512.png?text=Passos+Express",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["business", "logistics", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Calcular Frete",
+      "short_name": "Calcular",
+      "description": "Calcular frete rápido para Criciúma e região",
+      "url": "/#calcular",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Falar no WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Contato direto no WhatsApp",
+      "url": "/#whatsapp",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

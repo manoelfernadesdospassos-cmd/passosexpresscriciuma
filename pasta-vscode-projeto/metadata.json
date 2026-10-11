@@ -1,0 +1,6 @@
+{
+  "name": "Passos Express Criciúma - Entregas de Carro & WhatsApp",
+  "description": "Calculadora oficial de fretes para entregas de carro em Criciúma e região com envio direto para o WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
